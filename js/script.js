@@ -9,9 +9,13 @@ for (let index = 1; index < 101; index++) {
     contentEL.classList.add('content');
     contentEL.append(index);
     squareElement.appendChild(contentEL)
-    
+
     squareElement.addEventListener('click', function(){
-        squareElement.classList.add('active');
+        if((index +1) % 2 == 0){
+            squareElement.classList.add('active');
+        } else{
+            squareElement.classList.add('active','odd');
+        }
     });
      gridElement.appendChild(squareElement);
 }
