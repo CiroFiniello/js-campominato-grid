@@ -29,10 +29,26 @@ section.grid{
 section.grid ,
 section.grid article.square{
     border: 3px solid white;
+    display: flex;
 }
 section.grid >article.square{
     width: calc(100% / 10);
     height: calc(100% / 10);
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+section.grid >article.square.active{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: blueviolet;
+    color: black;
+}
+section.grid > article.square.active > span.content{
+    display: inline;
+}
+section.grid > article.square > span.content{
+    display: none;
 }
 .flex{
     display: flex;
