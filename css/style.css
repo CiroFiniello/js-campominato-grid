@@ -3,3 +3,37 @@
     padding: 0;
     margin: 0;
 }
+ul li{
+    list-style-type: none;
+    margin: 1rem;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.button{
+    padding: 0 1rem;
+    font-size: 2rem;  
+}
+main , header{
+    width: 1200px;
+    margin: 0 auto;
+}
+section.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+section.grid ,
+section.grid article.square{
+    border: 3px solid white;
+}
+section.grid >article.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.flex{
+    display: flex;
+}
