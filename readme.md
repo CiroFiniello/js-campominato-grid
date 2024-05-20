@@ -8,3 +8,8 @@ Consigli del giorno:
 :party_wizard: Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi.
 Ad esempio: Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti. Le validazioni e i controlli possiamo farli anche in un secondo momento. -->
+
+\\ L'utente clicca su un bottone, quindi devo creare un event listener da dare al bottone, con il quale verrà generata la tabella del campo minato
+    \\ il campo minato viene generato da un ciclo for
+        \\ ogni voltaa che l'utente clicca su una cella, si colorerà di azzurro ed emetterà un messaggio in console con il numero della casella cliccata , 
+            
