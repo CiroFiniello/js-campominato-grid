@@ -54,6 +54,11 @@ section.grid > article.square.active > span.content{
 section.grid > article.square > span.content{
     display: none;
 }
+footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
 .flex{
     display: flex;
 }
