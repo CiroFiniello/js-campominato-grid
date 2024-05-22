@@ -27,8 +27,8 @@ section.grid{
     margin: 0 auto;
 }
 section.grid ,
-section.grid article.square{
-    border: 3px solid white;
+article.square{
+    border: 1px solid white;
     display: flex;
 }
 section.grid >article.square{
@@ -61,4 +61,7 @@ footer{
 }
 .flex{
     display: flex;
+}
+#play{
+    background-color: aqua;
 }
